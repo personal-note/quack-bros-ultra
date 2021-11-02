@@ -1,0 +1,40 @@
+{
+    "name": "Quack Bros Ultra®",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "controller": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.1",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.28",
+        "tag": "v1.4.28",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/9569656def042c35d28e981045e67afaa1feed7c",
+        "target": "1.6.24",
+        "pxt": "6.12.9",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
